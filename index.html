@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vysoudil cviko</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    main {
+      background: url(Obr_troja1.png) bottom center/cover no-repeat;
+      min-width: 100%;
+    }
+    .social {
+      max-width: 50px;
+    }
+  </style>
+  <body>
+    <!-- FORMULÁŘ -->
+    <main class="container">
+      <a name="domu"></a>
+      <h1 class="display-1 text-center">HOTEL TROJA</h1>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <form class="mt-5">
+            <h4 class="mb-3">Rezervace</h4>
+            <div class="row">
+              <div class="mb-3 col-12 col-md-4">
+                <label for="" class="form-label">Jméno:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id=""
+                  placeholder="Jméno Příjmení"
+                />
+              </div>
+              <div class="mb-3 col-12 col-md-4">
+                <label for="" class="form-label">Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id=""
+                  aria-describedby="emailHelp"
+                  placeholder="email@email.com"
+                />
+              </div>
+              <div class="mb-3 col-12 col-md-4">
+                <label for="" class="form-label">Telefon:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id=""
+                  aria-describedby="emailHelp"
+                  placeholder="+444 123 456 789"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-3 col-12 col-md-6">
+                <label for="" class="form-label">Počet osob:</label>
+                <select class="form-select" aria-label="">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+              </div>
+              <div class="mb-3 col-12 col-md-6">
+                <label for="" class="form-label">Pokoj:</label>
+                <select class="form-select" aria-label="">
+                  <option value="1">Jednolůžkový</option>
+                  <option value="2">Dvojlůžkový</option>
+                  <option value="3">Trojlůžkový</option>
+                  <option value="4">Čtyřlůžkový</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-3 col-12 col-md-6">
+                <label for="" class="form-label">Od:</label>
+                <input type="date" class="form-control" id="" />
+              </div>
+              <div class="mb-3 col-12 col-md-6">
+                <label for="" class="form-label">Do:</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id=""
+                  placeholder="dd-mm-yyyy"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Zanechte nám vzkaz:</label>
+              <textarea class="form-control" id="" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="" />
+              <label class="form-check-label" for=""
+                >Souhlasím s podmínkami
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Rezervace</button>
+            <button type="button" class="btn btn-secondary">
+              <a href="https://youtu.be/eZK2SgCBHcU">Virtuální prohlídka</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- STICKY MENU -->
+    <aside class="sticky-top">
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#domu">Hotel Troja</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#domu"
+                  >Domů
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#o_nas"
+                  >O nás
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#cenik"
+                  >Ceník
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#kontakty"
+                  >Kontakty
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#domu"
+                  >Rezervovat
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </aside>
+    <!-- O NÁS -->
+    <div class="container">
+      <div class="row">
+        <h4>O nás</h4>
+        <a name="o_nas"></a>
+        <div class="col-12 col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
+            eos labore illum ab adipisci neque quam, possimus quibusdam
+            explicabo, sed dolorum quae cumque saepe. Ad id odio qui
+            consequuntur!
+          </p>
+        </div>
+        <div class="col-12 col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
+            eos labore illum ab adipisci neque quam, possimus quibusdam
+            explicabo, sed dolorum quae cumque saepe. Ad id odio qui
+            consequuntur!
+          </p>
+        </div>
+        <div class="d-none d-sm-inline col-md-6">
+          <img class="img-fluid" src="Obr1_zmensit.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- CENÍK KARTY -->
+    <div class="container">
+      <h4>Ceník</h4>
+      <a name="cenik"></a>
+      <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img src="Obr2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Jednolůžkový pokoj</h5>
+            <table class="card-text text-center">
+              <h6>Ceník</h6>
+              <ul type="circle">
+                <small>
+                  <small>
+                    <li>1000 Kč/noc/4-os</li>
+                    <li>2000 Kč/noc/2-os</li>
+                    <li>3000 Kč/noc/3-os</li>
+                    <li>4000 Kč/noc/4-os</li>
+                  </small>
+                </small>
+              </ul>
+            </table>
+            <a href="#domu" class="btn btn-primary">Rezervace</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="Obr3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Dvojlůžkový pokoj</h5>
+            <table class="card-text text-center">
+              <h6>Ceník</h6>
+              <ul type="circle">
+                <small>
+                  <small>
+                    <li>1800 Kč/noc/4-os</li>
+                    <li>2000 Kč/noc/2-os</li>
+                    <li>3000 Kč/noc/3-os</li>
+                    <li>4000 Kč/noc/4-os</li>
+                  </small>
+                </small>
+              </ul>
+            </table>
+            <a href="#domu" class="btn btn-primary">Rezervace</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="Obr2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Trojlůžkový pokoj</h5>
+            <table class="card-text text-center">
+              <h6>Ceník</h6>
+              <ul type="square">
+                <small>
+                  <small>
+                    <li>2600 Kč/noc/4-os</li>
+                    <li>2800 Kč/noc/2-os</li>
+                    <li>3000 Kč/noc/3-os</li>
+                    <li>4000 Kč/noc/4-os</li>
+                  </small>
+                </small>
+              </ul>
+            </table>
+            <a href="#domu" class="btn btn-primary">Rezervace</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="Obr3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Čtyřlůžkový pokoj</h5>
+            <table class="card-text text-center">
+              <h6>Ceník</h6>
+              <ul type="circle">
+                <small>
+                  <small>
+                    <li>3400 Kč/noc/4-os</li>
+                    <li>3600 Kč/noc/2-os</li>
+                    <li>3800 Kč/noc/3-os</li>
+                    <li>4000 Kč/noc/4-os</li>
+                  </small>
+                </small>
+              </ul>
+            </table>
+            <a href="#domu" class="btn btn-primary">Rezervace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1279.2004829783177!2d14.4137213!3d50.1162185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bead5a9a67e83%3A0x5ca54c1b5db2b7e0!2zVHJvanNrw70gesOhbWVr!5e0!3m2!1scs!2scz!4v1689590590032!5m2!1scs!2scz"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="col-12 col-md-4 mt-5">
+          <div class="row">
+            <a href=""
+              ><img class="social" src="facebook.svg" alt="" />Facebook
+            </a>
+          </div>
+          <div class="row">
+            <a href=""
+              ><img class="social" src="twitter.svg" alt="" />Twitter
+            </a>
+          </div>
+          <div class="row">
+            <a href=""
+              ><img class="social" src="instagram.svg" alt="" />Instagram
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-5">
+          <address>
+            U Trojského zámku 4/1 <br />
+            171 00 <br />
+            Praha 7
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</html>
